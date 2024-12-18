@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="changer" onchange="bgcolor()" type="color">
+    <p>hello</p>
+
+
+    <script>
+           function bgcolor(){
+          let col=  document.getElementById("changer")
+            console.log(col.value)
+            document.body.style.backgroundColor=col.value
+        }
+    </script>
+</body>
+</html>
